@@ -1,0 +1,143 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    
+}
+    .orange-color{
+        color: orange; 
+    }
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin right: 10%;
+
+    
+}
+
+
+
+.flexible-container img{
+    padding-left: 10%;
+}
+
+
+.half-width{
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.half-width img{
+    width: 60%;
+    
+}
+
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(red, rgb(240, 31, 24));
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 10px 30px;
+   
+   
+}
+
+.aim-item {
+
+    margin-right: 50px;
+    width: 400px;
+    height: 510px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    background-color: lightgray;
+
+ 
+    
+}
+.aim-item img{
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+    
+}
+
+.aim-item p{
+    max-lines: 5;
+    font-size: 14px;
+}
+
+
+.develop{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 0% 60%;
+    padding-top: 5px;
+    display: flex;
+   
+    
+    margin-bottom: 50px;
+}
+.develop img{
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+.mobile-view{
+    background-image: url(images/shapes/shape-2.png);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: 0% 60%;
+    padding-top: 5px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+footer {
+    background: #0B0D17;
+    padding: 50px 0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+   
+}
+
+footer .heading {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+   
+}
+footer p {
+    font-family: "sans-serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 26px;
+    color: #D9DBE1;
+    text-align: center;
+    
+}
+.footer{
+    background-color: rgb(7, 7, 43);
+}
+#copyright{
+    color: deepskyblue;
+    font-size: small;
+}
